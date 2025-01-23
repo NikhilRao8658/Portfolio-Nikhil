@@ -8,7 +8,7 @@ export const Bio = {
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
   github: "https://github.com/NikhilRao8658",
   resume:
-    "https://drive.google.com/file/d/1OdFnLqhF92Sk-guEYsiV28PtJL8dtkUn/view?usp=sharing",
+    "https://drive.google.com/file/d/1jZPh7BPTpdyjbJb4cbNpFe97-13om-Ip/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/nikhil8658/",
   twitter: "",
   insta: "",
@@ -45,6 +45,70 @@ export const skills = [
       },
     ],
   },
+
+   {
+    title: "Back-End Development",
+    skills: [
+      {
+        name: "JAVA",
+        image:
+          "https://cdn-icons-png.flaticon.com/128/226/226777.png",
+      },
+      {
+        name: "HIBERANTE",
+        image: "https://icon.icepanel.io/Technology/svg/Hibernate.svg",
+      },
+      {
+        name: "SERVLETS",
+        image:
+          "https://w7.pngwing.com/pngs/263/431/png-transparent-javaserver-pages-jar-java-servlet-computer-software-jar-text-logo-computer-programming-thumbnail.png",
+      },
+      {
+        name: "SPRING",
+        image:
+        "https://img.icons8.com/?size=100&id=90519&format=png&color=000000"
+      },
+      {
+        name: "SPRINGBOOT",
+        image:
+          "https://img.icons8.com/?size=100&id=90519&format=png&color=000000",
+      },
+    ],
+  },
+
+  {
+    title: "Others",
+    skills: [
+      {
+        name: "Git",
+        image:
+          "https://git-scm.com/images/logos/2color-lightbg@2x.png",
+      },
+      {
+        name: "GitHub",
+        image:
+          "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
+      },
+     
+      {
+        name: "VS Code",
+        image:
+          "https://upload.wikimedia.org/wikipedia/commons/thumb/9/9a/Visual_Studio_Code_1.35_icon.svg/512px-Visual_Studio_Code_1.35_icon.svg.png?20210804221519",
+      },
+
+      {
+        name: "ECLIPSE",
+        image:
+        "https://logonoid.com/images/eclipse-logo.png"
+      },
+      {
+        name: "Postman",
+        image:
+          "https://cdn.iconscout.com/icon/free/png-512/free-postman-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-vol-5-pack-logos-icons-3030217.png?f=webp&w=256",
+      }
+    ],
+  },
+  
 
 ];
 
