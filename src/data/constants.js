@@ -156,7 +156,7 @@ export const education = [
 export const projects = [
   {
     id: 4,
-    title: "",
+    title: " SMS Services - Sada Mee Sevalo",
     date: " MAR 2025 - APR 2025",
     description:
       "SMS Services - Sada Mee Sevalo is a multi-service booking platform built with React, Node.js, Firebase, and Tailwind CSS, allowing users to request services like banking, legal, and medical from home. As team lead, I oversaw development, ensured smooth functionality, and implemented real-time data handling for efficient service delivery.",
