@@ -78,6 +78,8 @@ import Education from "./components/Education";
 import ProjectDetails from "./components/ProjectDetails";
 import styled from "styled-components";
 import Error from "./Pages/Error.jsx";
+import Brightness4Icon from '@mui/icons-material/Brightness4'; // for dark mode
+import Brightness7Icon from '@mui/icons-material/Brightness7'; // for light mode
 
 const Body = styled.div`
   background-color: ${({ theme }) => theme.bg};
@@ -94,12 +96,12 @@ const Wrapper = styled.div`
 const ToggleButton = styled.button`
   position: fixed;
   top: 20px;
-  right: 20px;
-  padding: 10px;
+  right: 25px;
+  padding: 5px;
   background: ${({ theme }) => theme.bg === "#1C1C27" ? "#191924" : "#5c5b5b"}; // Light background in dark mode, custom color in light mode
   color: ${({ theme }) => theme.bg === "#1C1C27" ? "#D3D3D3" : "#FFFFFF"}; // Dark text in dark mode, light text in light mode
-  border: 1px solid ${({ theme }) => theme.bg === "#1C1C27" ? "#854CE6" : "#444"}; // Border color for better visibility
-  border-radius: 20px;
+  border: 1px none ${({ theme }) => theme.bg === "#1C1C27" ? "#854CE6" : "#444"}; // Border color for better visibility
+  border-radius: 25px;
   cursor: pointer;
   box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
   transition: background 0.3s, color 0.3s; // Smooth transition for aesthetics
@@ -113,7 +115,7 @@ function App() {
   const toggleTheme = () => {
     setDarkMode(prevMode => !prevMode)
     console.log(darkMode);
-    
+
   };
 
   return (
@@ -121,7 +123,15 @@ function App() {
       <Router>
         <Navbar />
         <ToggleButton onClick={toggleTheme}>
-          {darkMode ? "Light Mode" : "Dark Mode"}
+          {darkMode ? (
+            <>
+              <Brightness7Icon />
+            </>
+          ) : (
+            <>
+              <Brightness4Icon />
+            </>
+          )}
         </ToggleButton>
         <Body>
           <HeroSection />

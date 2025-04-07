@@ -43,6 +43,12 @@ export const skills = [
         image:
           "https://getbootstrap.com/docs/5.3/assets/brand/bootstrap-logo-shadow.png",
       },
+      {
+        name: "Tailwind CSS",
+        image:
+          "https://static-00.iconduck.com/assets.00/tailwind-css-icon-2048x1229-u8dzt4uh.png",
+      },
+      
     ],
   },
 
@@ -105,6 +111,11 @@ export const skills = [
         name: "Postman",
         image:
           "https://cdn.iconscout.com/icon/free/png-512/free-postman-logo-icon-download-in-svg-png-gif-file-formats--technology-social-media-company-vol-5-pack-logos-icons-3030217.png?f=webp&w=256",
+      },
+      {
+        name: " Swagger ",
+        image:
+          "https://static-00.iconduck.com/assets.00/swagger-icon-2048x2048-563qbzey.png",
       }
     ],
   },
@@ -144,6 +155,68 @@ export const education = [
 
 export const projects = [
   {
+    id: 4,
+    title: "",
+    date: " MAR 2025 - APR 2025",
+    description:
+      "SMS Services - Sada Mee Sevalo is a multi-service booking platform built with React, Node.js, Firebase, and Tailwind CSS, allowing users to request services like banking, legal, and medical from home. As team lead, I oversaw development, ensured smooth functionality, and implemented real-time data handling for efficient service delivery.",
+    image:
+      "https://i.imghippo.com/files/cS1212Lw.png",
+    tags: ["JavaScript", "React+Vite", "Firebase", "Google Auth" , "Tailwind CSS", "NodeJS", "ExpressJS"],
+    category: "android app",
+    github: "https://github.com/NikhilRao8658/GTS-SMS",
+    webapp: "https://github.com/NikhilRao8658/GTS-SMS",
+     member: [
+      {
+        name: "Raghu",
+        img: "https://i.imghippo.com/files/gLOO1865yg.jpg",
+        // linkedin: "https://www.linkedin.com/in/rishav-chanda-b89a791b3/",
+        // github: "https://github.com/rishavchanda/",
+      },
+      {
+        name: "Pradyuman Naik",
+        img: "https://avatars.githubusercontent.com/u/92319505?v=4",
+        // linkedin: "https://www.linkedin.com/in/upasana-chaudhuri-2a2bb5231/",
+        github: "https://github.com/Pradyumna-1",
+      },
+    ],
+  },
+
+  {
+    id: 1,
+    title: "Pixabay Image Search Application",
+    date: "",
+    description:
+      " A web application that allows users to search for images using the Pixabay API. Users can type in a query, view a list of images.",
+    image:
+      "https://i.imghippo.com/files/DTLrr1728879382.png",
+    tags: [
+      "HTML",
+      "CSS",
+      "JavaScript",
+      "React Js",
+    ],
+    category: "React",
+    github: "https://github.com/NikhilRao8658/pixabay",
+    webapp: "https://codesandbox.io/p/sandbox/github/NikhilRao8658/pixabay",
+  },
+
+  {
+    id: 10,
+    title: "Q-Trip",
+    date: "",
+    description:
+      "The Q-Trip Clone is a travel booking website built using React. It features a homepage with a list of trips, detailed trip information pages, and responsive navigation.",
+    image:
+      "https://i.imghippo.com/files/prBKp1728880237.png",
+    tags: ["HTML", "CSS", "JavaScript", "React jS"],
+    category: "React",
+    github: "https://github.com/NikhilRao8658/Q-Trip",
+    webapp: "https://codesandbox.io/p/sandbox/github/NikhilRao8658/Q-Trip",
+  },
+  {
+
+
     id: 9,
     title: "Amazon Prime Services",
     date: "",
@@ -187,24 +260,7 @@ export const projects = [
     //   },
     // ],
   },
-  {
-    id: 1,
-    title: "Pixabay Image Search Application",
-    date: "",
-    description:
-      " A web application that allows users to search for images using the Pixabay API. Users can type in a query, view a list of images.",
-    image:
-      "https://i.imghippo.com/files/DTLrr1728879382.png",
-    tags: [
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "React Js",
-    ],
-    category: "React",
-    github: "https://github.com/NikhilRao8658/pixabay",
-    webapp: "https://codesandbox.io/p/sandbox/github/NikhilRao8658/pixabay",
-  },
+
   {
     id: 2,
     title: "eCommerce Store Application",
@@ -235,19 +291,7 @@ export const projects = [
     github: "https://github.com/NikhilRao8658/Counter-App",
     webapp: "https://codesandbox.io/p/sandbox/github/NikhilRao8658/Counter-App",
   },
-  {
-    id: 10,
-    title: "Q-Trip",
-    date: "",
-    description:
-      "The Q-Trip Clone is a travel booking website built using React. It features a homepage with a list of trips, detailed trip information pages, and responsive navigation.",
-    image:
-      "https://i.imghippo.com/files/prBKp1728880237.png",
-    tags: ["HTML", "CSS", "JavaScript", "React jS"],
-    category: "React",
-    github: "https://github.com/NikhilRao8658/Q-Trip",
-    webapp: "https://codesandbox.io/p/sandbox/github/NikhilRao8658/Q-Trip",
-  },
+
   {
     id: 4,
     title: "Weacther Inspector",
@@ -285,19 +329,7 @@ export const projects = [
     github: "https://github.com/rishavchanda/Breaking-Bad",
     webapp: "https://breaking-bad-webapp.netlify.app",
   },
-  // {
-  //   id: 7,
-  //   title: "Quiz App",
-  //   date: "Dec 2020 - Jan 2021",
-  //   description:
-  //     "A android quiz app made with Java and Firebase. It has a login page where users can log in with their Google account. It has a sidebar where users can see all the quiz categories and can create a new quiz. It has a leaderboard where users can see the top 10 scorers. It has a search bar where users can search for a particular quiz.",
-  //   image:
-  //     "https://github-production-user-asset-6210df.s3.amazonaws.com/64485885/239726262-c1b061d1-d9d0-42ef-9f1c-0412d14bc4f6.gif",
-  //   tags: ["Java", "Android Studio", "Firebase", "Google Auth"],
-  //   category: "android app",
-  //   github: "https://github.com/rishavchanda/Quiz-Earn",
-  //   webapp: "https://github.com/rishavchanda/Quiz-Earn",
-  // },
+
   // {
   //   id: 8,
   //   title: "Face Recognition",
