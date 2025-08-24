@@ -164,8 +164,8 @@ export const projects = [
       "https://i.imghippo.com/files/cS1212Lw.png",
     tags: ["JavaScript", "React+Vite", "Firebase", "Google Auth", "Tailwind CSS", "NodeJS", "ExpressJS"],
     category: "android app",
-    github: "https://github.com/NikhilRao8658/GTS-SMS",
-    webapp: "https://github.com/NikhilRao8658/GTS-SMS",
+    github: "https://github.com/NikhilRao8658/SMS--Services",
+    webapp: "https://github.com/NikhilRao8658/SMS--Services",
     member: [
       {
         name: "Raghu",
