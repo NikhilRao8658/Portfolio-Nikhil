@@ -48,11 +48,11 @@ export const skills = [
         image:
           "https://static-00.iconduck.com/assets.00/tailwind-css-icon-2048x1229-u8dzt4uh.png",
       },
-      
+
     ],
   },
 
-   {
+  {
     title: "Back-End Development",
     skills: [
       {
@@ -72,7 +72,7 @@ export const skills = [
       {
         name: "SPRING",
         image:
-        "https://img.icons8.com/?size=100&id=90519&format=png&color=000000"
+          "https://img.icons8.com/?size=100&id=90519&format=png&color=000000"
       },
       {
         name: "SPRINGBOOT",
@@ -95,7 +95,7 @@ export const skills = [
         image:
           "https://github.githubassets.com/images/modules/logos_page/GitHub-Mark.png",
       },
-     
+
       {
         name: "VS Code",
         image:
@@ -105,7 +105,7 @@ export const skills = [
       {
         name: "ECLIPSE",
         image:
-        "https://logonoid.com/images/eclipse-logo.png"
+          "https://logonoid.com/images/eclipse-logo.png"
       },
       {
         name: "Postman",
@@ -119,7 +119,7 @@ export const skills = [
       }
     ],
   },
-  
+
 
 ];
 
@@ -156,17 +156,17 @@ export const education = [
 export const projects = [
   {
     id: 4,
-    title: "",
+    title: "SMS Services - Sada Mee Sevalo",
     date: " MAR 2025 - APR 2025",
     description:
       "SMS Services - Sada Mee Sevalo is a multi-service booking platform built with React, Node.js, Firebase, and Tailwind CSS, allowing users to request services like banking, legal, and medical from home. As team lead, I oversaw development, ensured smooth functionality, and implemented real-time data handling for efficient service delivery.",
     image:
       "https://i.imghippo.com/files/cS1212Lw.png",
-    tags: ["JavaScript", "React+Vite", "Firebase", "Google Auth" , "Tailwind CSS", "NodeJS", "ExpressJS"],
+    tags: ["JavaScript", "React+Vite", "Firebase", "Google Auth", "Tailwind CSS", "NodeJS", "ExpressJS"],
     category: "android app",
     github: "https://github.com/NikhilRao8658/GTS-SMS",
     webapp: "https://github.com/NikhilRao8658/GTS-SMS",
-     member: [
+    member: [
       {
         name: "Raghu",
         img: "https://i.imghippo.com/files/gLOO1865yg.jpg",
@@ -324,25 +324,24 @@ export const projects = [
     description:
       "This project involves creating a responsive clone of the Sony official website using Tailwind CSS. The clone aims to replicate the sleek design and functionality of the original site, showcasing Sony's product range, including electronics, gaming consoles, and entertainment options.",
     image: "https://www.sony.co.in/content/dam/sony/contents/regional-FSMC/india/common/homepage/promotions-and-offers/2024/diwali-2024/Diwali_2024_Promo.jpg",
-    tags: ["React","Tailwind Css"],
+    tags: ["React", "Tailwind Css"],
     category: "web app",
     github: "https://github.com/rishavchanda/Breaking-Bad",
     webapp: "https://breaking-bad-webapp.netlify.app",
   },
 
-  // {
-  //   id: 8,
-  //   title: "Face Recognition",
-  //   date: "Jan 2021",
-  //   description:
-  //     "A Face recognition python app made with OpenCV. It uses face_recognition library to detect faces. It uses the webcam to detect faces. It also has a search bar to search for a particular face.",
-  //   image:
-  //     "https://camo.githubusercontent.com/a8b3e1ebf26d4c95f75bc6671189a3590eb67eb8332d7c7452492990e731efb9/68747470733a2f2f77617265686f7573652d63616d6f2e696e67726573732e636d68312e707366686f737465642e6f72672f356137383335396561323762643261633232336437656662306639303831306437373930383436312f363837343734373037333361326632663633366336663735363432653637363937343638373536323735373336353732363336663665373436353665373432653633366636643266363137333733363537343733326633383339333633363339333232663332333433343333333033333339333832663333333636363330363533333636333032643331333336333632326433313331363533373264333833323335333832643334363433303633333936333635333136353334333133393265363736393636",
-  //   tags: ["Python", "Keras", "TensorFlow", "VGG16", "Pickle", "React"],
-  //   category: "machine learning",
-  //   github: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-  //   webapp: "https://github.com/rishavchanda/Face-Recodnition-AI-with-Python",
-  // },
+  {
+    id: 8,
+    title: "Student Course Register",
+    date: "Aug 2025",
+    description: "Developed a Student Registration and Course Management System that allows users to register, browse available courses, and manage enrollments. Implemented features like course creation, price/offer display, and options to select, update, or delete courses with a clean user interface.",
+    image:
+      "https://i.postimg.cc/QCF3xq1C/Course-Registration-08-24-2025-05-23-PM.png",
+    tags: ["JavaScript", "React + Vite"],
+    category: "machine learning",
+    github: "https://github.com/NikhilRao8658/StudentCourseRegister",
+    webapp: "https://github.com/NikhilRao8658/StudentCourseRegister",
+  },
 ];
 
 // export const TimeLineData = [
